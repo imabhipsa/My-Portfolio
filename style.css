@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.light-theme{
+    background-color: #eed4f8bd;
+    padding-top: 1vh;
+
+}
+.primary-color{
+    background-color: #9b59b6;
+}
+.navbar a{
+    color: white !important;
+    font-size: 20px;
+}
+.navbar a:hover{
+    transform: scale(1.02);
+}
+.jumbotron{
+    background-color: #eed4f8bd;
+
+}
+.jumbotron .name{
+    letter-spacing: 9px;
+}
+.jumbotron .sub-name{
+    letter-spacing: 8px;
+}
+.center{
+    transform: translateX(20);
+}
+.box-wrap {
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: black;
+    /* position: relative; */
+}
+.box h4{
+    margin-top: 40%;
+    color: cyan;
+}
+.box p{
+    /* position: absolute; */
+}
+.project{
+    background-color: #f4f4f4;x
+
+}
+.contact{
+    background-color: #eed4f8bd;
+
+}
+.msg_btn{
+
+    background-color:#9b59b6 ;
+    /* background-color:#e9e9e9; */
+    color: white;
+    box-shadow:-6px -6px 9px  white,6px 6px 9px black;
+
+    transition: 1.2s;
+}
+.msg_btn:hover{
+    color: cyan;
+}
+.footer{
+    background-color: #9c49bd;
+    width: 100%;
+    height: 60vh;
+
+}
+.footer h3{
+    letter-spacing: 8px;
+}
+
+.flex i:hover{
+    box-shadow: -1px -1px 11px -1px rgba(252, 252, 252, 0.699);
+    cursor: pointer;
+    transform: scale(1.4) translateY(-10px);
+
+}
+.flex i{
+font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 26px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background-color: #962cc0 ;
+    transition: 0.3s;
+    box-shadow: -1px -1px 11px -1px rgba(252, 252, 252, 0.349);
+    transform: scale(1.2);
+    /* padding: 10px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 50%;
+    color: white; */
+}
